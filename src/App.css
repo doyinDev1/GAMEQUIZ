@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
+
+}
+p{
+  margin-bottom: 0rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --teal: rgba(4, 71, 74, 1);
+  --green: rgba(0, 153, 66, 1);
+  --red: rgba(216, 35, 0, 1);
+  --white: rgba(255, 255, 255, 1);
+  --seablue:  rgba(65, 90, 166, 1);
+  --lightblue: rgba(31, 188, 235, 0.5);
+;
+}
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 1000ms ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+  /* transition: opacity 1000ms ease-in-out; */
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+  /* transition: opacity 1000ms ease-in-out; */
+
+}
+.card-container{
+  padding: 0px !important;
+  border-radius: 8px 8px 0 0 !important;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.w-100{
+  object-fit: cover !important;
+  height: 100% !important;
+ border-radius: 8px 8px 0 0 !important;
 }

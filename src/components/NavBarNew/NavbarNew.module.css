@@ -1,0 +1,10 @@
+.Nav{
+    background: url(../../assets/images/Rectangle\ 109.png);
+}
+.Left{
+    padding: 20px 0 10px 20px;
+}
+.Left img{
+/* height: 200px; */
+width: 130px;
+}

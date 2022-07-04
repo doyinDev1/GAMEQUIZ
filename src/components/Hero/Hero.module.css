@@ -1,0 +1,442 @@
+.Hero {
+  display: flex;
+  justify-content: space-between;
+  /* background: url(../../assets/images/Vector\ 1.png); */
+}
+.Left {
+  width: 50vw;
+  height: -webkit-fill-available;
+  padding-left: 50px;
+}
+.LeftTop {
+  padding: 20px 0 10px 0px;
+}
+.LeftTop img {
+  width: 280px;
+}
+.LeftTopMid {
+  padding-top: 60px;
+  padding-left: 40px;
+
+}
+.LeftTopBottom p{
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+.LeftTopMid h1 {
+  font-size: 160px;
+  color: var(--teal);
+}
+
+.LeftTopMid h2 {
+  font-size: 125px;
+  color: var(--green);
+  padding-top: 30px;
+}
+
+.LeftTopBottom {
+  padding-top: 120px;
+  padding-left: 40px;
+
+}
+
+.LeftTopBottom h3 {
+  color: var(--seablue);
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+.Input {
+  box-sizing: border-box;
+  /* width: 40vw; */
+  width: 24vw;
+
+  /* height: 90px; */
+  height: 130px;
+  padding: 10px;
+  border: 5px solid var(--red);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.Input input {
+  height: 72px;
+  border: none;
+  width: 32vw;
+  outline: none;
+}
+.Input input[type="number"] {
+  font-size: 30px;
+}
+
+.Input input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0px;
+  font-size: 30px;
+}
+.Input button {
+  width: auto;
+  height: auto;
+  /* padding: 11px 54px; */
+  padding: 26px 75px;
+
+  background: linear-gradient(351.34deg, #008037 6.95%, #009942 93.76%);
+  /* box-shadow: 0px 0px 8px #166035; */
+  border-radius: 15px;
+  color: var(--white);
+  font-size: 40px;
+  
+}
+.Input svg {
+  color: var(--white);
+  fill: var(--white);
+}
+
+.Error{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  padding-top: 15px;
+
+}
+.Error svg{
+  color: var(--red);
+  font-size: 50px;
+  margin-right: 20px;
+}
+.Error p{
+  color: var(--red);
+  font-size: 50px;
+
+}
+.Right {
+  width: 50vw;
+  max-height: 100vw;
+}
+
+.Right img {
+  width: 50vw;
+  /* height: -webkit-fill-available; */
+  position: fixed;
+
+  width: 50vw;
+  height: 100vh;
+
+}
+
+
+@media only screen and (max-width: 2560px) {
+  .LeftTopMid h1 {
+    font-size: 95px;
+  }
+  .LeftTopMid h2 {
+    font-size: 75px;
+  }
+  .LeftTopBottom h3 {
+    font-size: 40px;
+    padding-bottom: 40px;
+
+  }
+  .LeftTopBottom{
+    padding-top: 40px;
+  }
+  .Input input[type="number"] {
+    font-size: 25px;
+  }
+/* .Input button {
+    padding: 26px 33px;
+    }
+    .Input{
+      height: 120px;
+    }
+  .Input button{
+    padding: 25px 100px;
+
+  } */
+  .Error svg{
+    font-size: 30px;
+    margin-right: 20px;
+  }
+  .Error p{
+    font-size: 30px;
+  
+  }
+}
+
+
+
+@media only screen and (max-width: 2200px) {
+  .LeftTopMid h1 {
+    font-size: 70px;
+  }
+  .LeftTopMid h2 {
+    font-size: 59px;
+  }
+  .LeftTopBottom {
+    padding-top: 80px;
+  
+  }
+  .LeftTopBottom h3 {
+    font-size: 33px;
+  }
+
+}
+@media only screen and (max-width: 1920px) {
+
+  .Input button {
+    /* padding: 23px 13px; */
+    padding: 23px 15px;
+
+      }
+    .Input input[type="number"] {
+      font-size: 25px;
+      height: 51px;
+
+    }
+
+    .Error svg{
+      font-size: 27px;
+      margin-right: 10p
+    }
+    .Error p{
+      font-size: 25px;
+    
+    }
+   
+}
+@media only screen and (max-width: 1700px) {
+  .LeftTop img {
+    width: 200px !important;
+  }
+  .LeftTopMid h2 {
+    font-size: 55px;
+  }
+
+  .LeftTopBottom {
+    padding-top: 75px;
+  }
+  .LeftTopBottom h3 {
+    font-size: 34px;
+  }
+  .LeftTopMid h1 {
+    font-size: 65px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .LeftTopMid h1 {
+    font-size: 50px;
+  }
+  .LeftTopMid h2 {
+    font-size: 40px;
+  }
+
+  .LeftTopBottom h3 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+.Input{
+  height: 80px;
+}
+.Input button{
+  padding: 9px 9px;
+  font-size: 25px;
+}
+.Input input[type="number"] {
+ 
+  width: 241px;
+}
+.LeftTopBottom{
+  padding-top: 20px;
+}
+.LeftTopBottom h3{
+  padding-bottom: 15px;
+}
+.LeftTopMid{
+  padding-top: 0px;
+}
+.Error svg{
+  font-size: 20px;
+  margin-right: 12px;
+}
+.Error p{
+  font-size: 16px;
+
+}
+}
+
+@media only screen and (max-width: 1380px) {
+  .Input {
+    width: 24vw;
+    height: 83px;
+  }
+
+  .LeftTopMid h2 {
+    font-size: 35px;
+  }
+
+  .LeftTopBottom {
+    padding-top: 40px;
+  }
+  .LeftTopBottom h3 {
+    font-size: 20px;
+       padding-bottom: 25px;
+  }
+  .LeftTopMid h1 {
+    font-size: 45px;
+  }
+  .Input input[type="number"] {
+   
+    width: 190px;
+  }
+.Input button{
+  font-size: 23px;
+  padding: 17px 25px;
+
+}
+.Input input::placeholder {
+  /* color: rgba(0, 0, 0, 0.7);
+  padding: 0px; */
+  font-size: 20px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 1280px) {
+  .Input {
+    width: 23vw;
+    height: 75px;
+
+  }
+  input[type="number"] {
+    font-size: 25px;
+    width: 161px;
+}
+.Input button {
+  
+  padding: 13px 13px;
+  font-size: 23px;
+}
+.Input input::placeholder {
+ 
+  font-size: 20px;
+}
+.Error svg{
+  font-size: 20px;
+  margin-right: 8px
+}
+.Error p{
+  font-size: 15px;
+
+}
+}
+@media only screen and (max-width: 1230px) {
+
+  .Input button {
+  
+    padding: 12px 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Input button {
+    
+    padding: 11px 19px;
+    /* padding: 12px 30px; */
+  }
+ 
+}
+
+@media only screen and (max-width: 1100px) {
+  .LeftTopMid h1 {
+    font-size: 38px;
+  }
+  .LeftTopMid h2 {
+    font-size: 31px;
+  }
+  .Input button {
+    
+    padding: 17px 15px;
+  font-size: 16px;
+  }
+ 
+
+}
+@media only screen and (max-width: 1024px) {
+  .LeftTopMid h1 {
+    font-size: 37px;
+  }
+  .LeftTopMid h2 {
+    font-size: 28px;
+  }
+  .LeftTopMid{
+
+    padding-top: 15px;
+  }
+
+  .LeftTopBottom h3 {
+    font-size: 14px;
+  }
+  .LeftTopBottom {
+    padding-top: 40px;
+  }
+  .Input button {
+    
+    padding: 11px 14px;
+  }
+  .Input input[type="number"] {
+    width: 144px;
+}
+}
+@media only screen and (max-width: 912px) {
+  .Right img {
+    height: 100vw;
+    width: unset;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .LeftTopMid h1 {
+    font-size: 32px;
+  }
+
+  .LeftTopMid h2 {
+    font-size: 25px;
+  }
+  .LeftTopBottom h3 {
+    font-size: 15px;
+  }
+  .Input {
+    width: 56vw;
+  }
+
+  .Input input[type="number"] {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .Right {
+    display: none;
+  }
+  .Left {
+    width: 100vw;
+    padding-left: 36px;
+  }
+  .Input {
+    width: 75vw;
+  }
+
+  .Input input[type="number"] {
+    font-size: 25px;
+  }
+  .Input input::placeholder {
+    font-size: 14px;
+  }
+
+  .LeftTop img {
+    width: 70px;
+  }
+}

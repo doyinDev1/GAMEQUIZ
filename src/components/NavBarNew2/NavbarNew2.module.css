@@ -1,0 +1,17 @@
+.Nav{
+background: var(--white);
+box-shadow: 5px 5px 10px rgba(192, 192, 192, 0.4);
+}
+
+.Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Left {
+padding: 20px 0 10px 20px;
+}
+.Left img{
+width: 130px;
+}

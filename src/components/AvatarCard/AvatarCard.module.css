@@ -1,0 +1,115 @@
+.Avatar {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  background: var(--white);
+  box-shadow: 15px 15px 40px #217675;
+  border-radius: 20px;
+}
+.AvatarTop {
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  /* left: 371px;
+  top: 178px; */
+  border: 3px solid var(--lightblue);
+  border-radius: 15px;
+}
+.AvatarTop1 {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    left: 371px;
+    top: 178px;
+    border: 3px solid var(--lightblue);
+    border-radius: 15px;
+  }
+.AvatarTop2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.fix {
+  display: flex;
+}
+.commentTop{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.comment{
+    width: auto;
+    border-radius: 25px;
+    padding: 10px;
+    background: #0ba3d180;
+    /* box-shadow: 15px 15px 40px #2ab60d; */
+}
+.commentTop button{
+color: var(--white);
+padding: 4px 9px;
+background: #D82300;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+border-radius: 5px
+}
+
+.AvatarBottom{
+    padding-top: 30px;
+}
+
+.Input{
+    padding-top: 20px;
+}
+
+.Input input {
+    height: 47px;
+    border: none;
+    /* width: 32vw; */
+    outline: none;
+    border-radius: 10px;
+  }
+  .Input input[type="text"] {
+    font-size: 30px;
+    background-color:rgba(237, 237, 237, 1);
+    text-align: center;
+    color: black !important;
+
+  }
+  /* background: ; */
+
+  .Input input::placeholder {
+    color: rgba(0, 0, 0, 0.5) !important;
+    padding: 0px;
+    font-size: 25px;
+  }
+
+  .Login{
+padding-top: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+  .Login button{
+    /* position: absolute; */
+width: 60%;
+height: 52px;
+left: 434px;
+top: 571px;
+color: var(--white);
+font-size: 25px;
+/* background: linear-gradient(351.34deg, #008037 6.95%, #009942 93.76%); */
+/* box-shadow: 0px 0px 8px #166035; */
+border-radius: 10px;
+
+
+
+background: linear-gradient(351.34deg, #D82300 6.95%, #BF1F00 93.76%);
+box-shadow: 0px 0px 8px rgba(119, 50, 36, 0.4);
+border-radius: 10px;
+
+  }
